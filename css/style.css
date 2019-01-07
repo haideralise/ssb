@@ -1,0 +1,44 @@
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+.red {
+    background-color: red;
+}
+
+.pink {
+    background-color: pink;
+}.black {
+    background-color: black;
+}.blue {
+    background-color: blue;
+}.brown {
+    background-color: saddlebrown;
+}.green {
+    background-color: green;
+}.yellow {
+    background-color: yellow;
+}
+ .potted-balls {
+     background-color: #eeeeee;
+     border-radius: 20px;
+     padding: 5px;
+     margin-bottom: 10px;
+ }
+ .player {
+     border-radius: 10px;
+     border: 1px solid #eeeeee;
+ }
+ .active-player {
+     background-color: #17a2b8;
+ }
+ .main{
+     padding-top: 50px;
+ }
+ .fouls {
+     display: inline-block;
+     background-color: #ffc107;
+ }

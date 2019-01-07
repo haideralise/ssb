@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Snooker Score Board</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-6">
+                Game Types
+                <button type="button" class="btn btn-primary">2 Players</button>
+                <button type="button" class="btn btn-info">Point Game</button>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" name="player_name" placeholder="Player Name" class="form-control" />
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="players">
+
+        </div>
+        <div class="score-board">
+            <h4>Score Board</h4>
+            <button class="btn ball red">1</button>
+            <button class="btn ball yellow">2</button>
+            <button class="btn ball green">3</button>
+            <button class="btn ball brown"></button>
+            <button class="btn ball blue"></button>
+            <button class="btn ball pink"></button>
+            <button class="btn ball black"></button>
+            <button class="btn btn-danger btn-foul">Foul</button>
+            <button class="btn btn-info btn-free-ball">Free Ball</button>
+            <button class="btn btn-warning">Play Again</button>
+
+            <button class="btn btn-primary">Turn Over</button>
+            <div class="current-break">
+                <h5>Current Break</h5>
+                <div class="potted-balls">
+                    <button class="btn ball red">1</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row 2-players">
+            <div class="col-md-5 player active-player">
+                <h3>Player 2</h3>
+
+                <div class="breaks">
+                    <div class="row">
+                        <div class="col-md-3">
+                            Score : 155
+                        </div>
+                        <div class="col-md-9">
+                            <div class="potted-balls fouls">
+                                <button class="btn ball red">15</button>
+                                <button class="btn ball yellow">1</button>
+                                <button class="btn ball green">1</button>
+                                <button class="btn ball brown">1</button>
+                                <button class="btn ball blue">1</button>
+                                <button class="btn ball pink">1</button>
+                                <button class="btn ball black">16</button>
+                                <span class="badge badge-warning badge-pill"> fouls : 4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">1</button>
+                        <span class="badge badge-info badge-pill"> 1</span>
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">15</button>
+                        <button class="btn ball yellow">1</button>
+                        <button class="btn ball green">1</button>
+                        <button class="btn ball brown">1</button>
+                        <button class="btn ball blue">1</button>
+                        <button class="btn ball pink">1</button>
+                        <button class="btn ball black">16</button>
+
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">1</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 player">
+                <h3>Player 2</h3>
+
+                <div class="breaks">
+                    <div class="row">
+                        <div class="col-md-3">
+                            Score : 155
+                        </div>
+                        <div class="col-md-9">
+                            <div class="potted-balls" style="display:inline-block">
+                                <button class="btn ball red">15</button>
+                                <button class="btn ball yellow">1</button>
+                                <button class="btn ball green">1</button>
+                                <button class="btn ball brown">1</button>
+                                <button class="btn ball blue">1</button>
+                                <button class="btn ball pink">1</button>
+                                <button class="btn ball black">16</button>
+                                <span class="badge badge-info badge-pill"> fouls : 4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">1</button>
+                        <span class="badge badge-info badge-pill"> 1</span>
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">15</button>
+                        <button class="btn ball yellow">1</button>
+                        <button class="btn ball green">1</button>
+                        <button class="btn ball brown">1</button>
+                        <button class="btn ball blue">1</button>
+                        <button class="btn ball pink">1</button>
+                        <button class="btn ball black">16</button>
+
+                    </div>
+                    <div class="potted-balls">
+                        <button class="btn ball red">1</button>
+                    </div>
+                </div>
+        </div>
+
+
+    </div>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+</html>
